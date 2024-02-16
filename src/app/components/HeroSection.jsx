@@ -27,10 +27,12 @@ const HeroSection = () => {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 'a Software Developer',
                 1000,
-                'a Fooo',
+                'an amateur Photographer',
                 1000,
-                'a Blaaah',
-                1000
+                'a fitness enthusiast',
+                1000,
+                'an otaku',
+                1000,
               ]}
               wrapper='span'
               speed={50}
