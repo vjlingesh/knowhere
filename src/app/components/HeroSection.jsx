@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
+import ProfileImage from '../../../public/portfolio-image.png'
 
 const HeroSection = () => {
   return (
@@ -60,7 +61,7 @@ const HeroSection = () => {
         >
           <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400-px] lg:h-[400px] relative'>
             <Image
-              src='/portfolio-image.png'
+              src={ProfileImage}
               alt='hero image'
               className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
               width={300}
