@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/knowhere'
+    output: 'export'
 }
 
 module.exports = nextConfig
