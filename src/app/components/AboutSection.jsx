@@ -13,6 +13,13 @@ const TAB_DATA = [
         <li>Java</li>
         <li>Ruby</li>
         <li>Python</li>
+        <li>Kotlin</li>
+        <li>JavScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>AWS Services</li>
+        <li>Docker and Kubernetes</li>
+        <li>Git</li>
       </ul>
     )
   },
@@ -50,7 +57,7 @@ const AboutSection = () => {
     <section className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image
-          src='/images/about-image.png'
+          src='/images/about-image-vijay.jpg'
           width={500}
           height={500}
           alt='about-img'
@@ -58,10 +65,16 @@ const AboutSection = () => {
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint
-            temporibus harum, accusamus quibusdam iste possimus dolor repellat a
-            dicta unde voluptatem corrupti! Sit optio soluta debitis,
-            perferendis ipsa cumque.
+            Results-oriented software developer with a solid background in
+            full-stack application implementation, cloud technology solutions,
+            and software engineering best practices. Possessing 5 years of
+            experience in the field, including 2 years as a cloud automation
+            engineer with Oracle and 3 years as a full-stack developer with
+            Amazon. Proven ability to design scalable software solutions using
+            cloud technologies, ensuring efficient and reliable performance.
+            Adept at working with Java, Ruby, and TypeScript, and experienced in
+            applying industry-standard best practices for software release and
+            project lifecycle management.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton

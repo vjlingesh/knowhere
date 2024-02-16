@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import GithubIcon from '../../../public/github-icon.svg'
 import LinkedinIcon from '../../../public/linkedin-icon.svg'
+import InstagramIcon from '../../../public/instagram-icon.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -40,18 +41,21 @@ const EmailSection = () => {
         <h5 className='text-xl font-bold text-white my-2'>
           Let&apos;s Connect
         </h5>
-        <p className='text-#[ADB7BE] mb-4 max-w-md'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-          voluptatum deserunt a possimus asperiores eum consequuntur tenetur
-          iure voluptate, excepturi nemo quibusdam tempora. Velit dolore
-          suscipit repellendus adipisci, unde dignissimos.
-        </p>
+        <p className='text-#[ADB7BE] mb-4 max-w-md'>Feel free to follow me</p>
         <div className='socials flex flex-row gap-2'>
-          <Link href='github.com'>
+          <Link href='https://github.com/vjlingesh'>
             <Image src={GithubIcon} alt='Github Icon' />
           </Link>
-          <Link href='LinkedIn.com'>
+          <Link href='https://www.linkedin.com/in/vijay-lingesh/'>
             <Image src={LinkedinIcon} alt='LinkedIn Icon' />
+          </Link>
+          <Link href='https://www.instagram.com/vijay_lingesh/'>
+            <Image
+              src={InstagramIcon}
+              alt='Instagram Icon'
+              width={45}
+              height={45}
+            />
           </Link>
         </div>
       </div>

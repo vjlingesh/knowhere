@@ -37,10 +37,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at
-            magni modi veritatis illum, repudiandae, adipisci sed reiciendis
-            totam ipsum ea tenetur provident quo culpa quidem in quibusdam est
-            ad!
+            Tech Innovator | Former AWS Software Engineer | Oracle Accolades |
+            Master of Science in Computer Science | Passionate about Software,
+            Music, and Photography 🚀🎸📸
           </p>
           <div>
             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 bg-white hover:bg-slate-200 text-white'>
@@ -61,7 +60,7 @@ const HeroSection = () => {
         >
           <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400-px] lg:h-[400px] relative'>
             <Image
-              src='/images/hero-image.png'
+              src='/images/portfolio-image.png'
               alt='hero image'
               className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
               width={300}
